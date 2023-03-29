@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/Drivers/modeltech64_10.4/examples
 vALU
-Z0 !s110 1680103101
+Z0 !s110 1680104309
 !i10b 1
 !s100 LO9DoL9PF`c:lJ86=2c>S2
 I@J=HWfa<<dYZmAXLE3i3N3
@@ -23,7 +23,7 @@ Z3 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1680103101.341000
+!s108 1680104309.561000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
 !i113 0
@@ -44,12 +44,52 @@ R3
 r1
 !s85 0
 31
-!s108 1680103101.397000
+!s108 1680104309.617000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v|
 !i113 0
 R4
 n@a@l@u_tb
+vControl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 d1cAoTUXUf6MB7]Yf95JY1
+IUbU[e^f=BC66Ib6:JA@c41
+R2
+w1680104298
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
+L0 1
+R3
+!s108 1680104309.383000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v|
+!i113 0
+R4
+n@control
+vControl_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 NRgn_DCjUbh27k[<I_Q1c0
+I><X<QWiF?LY3@USU4OW3b1
+R2
+w1680104062
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v
+L0 2
+R3
+!s108 1680104309.705000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v|
+!i113 0
+R4
+n@control_tb
 vRegs
 R0
 !i10b 1
@@ -65,7 +105,7 @@ R3
 r1
 !s85 0
 31
-!s108 1680103101.226000
+!s108 1680104309.441000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
 !i113 0
@@ -86,7 +126,7 @@ R3
 r1
 !s85 0
 31
-!s108 1680103101.283000
+!s108 1680104309.503000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v|
 !i113 0
