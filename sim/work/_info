@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/TL/Sync/SVN/School/SourceProgram/lab5_combination/sim/ModeComparator
+vALU
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Nz<dT97XdQdz<^1ARB`Q73
+IR@f=:^:^1ElYK[U<TGEFN0
+Z1 dD:/TLProject/Verilog/TL_RISCV_CPU/sim
+w1680098242
+8D:/TLProject/Verilog/TL_RISCV_CPU/ALU.v
+FD:/TLProject/Verilog/TL_RISCV_CPU/ALU.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1680098331.272000
+!s107 D:/TLProject/Verilog/TL_RISCV_CPU/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/TL_RISCV_CPU/ALU.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@l@u
+vALU_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3n?]Z44>TYdQ?=fX46bGf1
+IXh_VQX[B>7De2_JIY8=`H3
+R1
+w1680098326
+8D:/TLProject/Verilog/TL_RISCV_CPU/ALU_tb.v
+FD:/TLProject/Verilog/TL_RISCV_CPU/ALU_tb.v
+L0 2
+R2
+!s108 1680098331.211000
+!s107 D:/TLProject/Verilog/TL_RISCV_CPU/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/TL_RISCV_CPU/ALU_tb.v|
+!i113 0
+R3
+n@a@l@u_tb
+vEncode
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 KADjU>oZ[dWBIALO]=JNB3
+I3NGB7<Mgm;V17_ef:dock2
+R1
+w1680065265
+8D:/TLProject/Verilog/TL_RISCV_CPU/Encode.v
+FD:/TLProject/Verilog/TL_RISCV_CPU/Encode.v
+L0 1
+R2
+!s108 1680068811.793000
+!s107 D:/TLProject/Verilog/TL_RISCV_CPU/Encode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/TL_RISCV_CPU/Encode.v|
+!i113 0
+R3
+n@encode
+vEncode_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mh<IZaj=QJG<>HJ>dL5MY2
+IlEggkFoWWU<ednEImXl_F1
+R1
+w1680068807
+8D:/TLProject/Verilog/TL_RISCV_CPU/Encode tb.v
+FD:/TLProject/Verilog/TL_RISCV_CPU/Encode tb.v
+L0 3
+R2
+!s108 1680068811.849000
+!s107 D:/TLProject/Verilog/TL_RISCV_CPU/Encode tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/TL_RISCV_CPU/Encode tb.v|
+!i113 0
+R3
+n@encode_tb
