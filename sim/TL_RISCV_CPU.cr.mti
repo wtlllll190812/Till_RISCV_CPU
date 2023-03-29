@@ -1,1 +1,39 @@
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Regs
 
+Top level modules:
+	Regs
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v {0 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Control
+** Error: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v(1): (vlog-2730) Undefined variable: 'inst'.
+
+** Error: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v(1): Identifier must be declared with a port mode: inst.
+** Error: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v(1): (vlog-2730) Undefined variable: 'aluSel'.
+
+** Error: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v(1): Identifier must be declared with a port mode: aluSel.
+
+} {4.0 5.0 6.0 8.0 9.0 10.0} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Regs_tb
+
+Top level modules:
+	Regs_tb
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}}
