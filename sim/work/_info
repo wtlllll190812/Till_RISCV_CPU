@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Drivers/modeltech64_10.4/examples
+vALU
+Z0 !s110 1680103101
+!i10b 1
+!s100 LO9DoL9PF`c:lJ86=2c>S2
+I@J=HWfa<<dYZmAXLE3i3N3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/TLProject/Verilog/cpu/TL_RISCV_CPU/sim
+w1680103075
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1680103101.341000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@l@u
+vALU_tb
+R0
+!i10b 1
+!s100 :9VhEiNPUVLNSj9EOz6Ke0
+I`c]cMS85fz_h_Sak4h>320
+R1
+R2
+w1680103094
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1680103101.397000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v|
+!i113 0
+R4
+n@a@l@u_tb
+vRegs
+R0
+!i10b 1
+!s100 XZK1=Io;Zlm5m>?[5?VYR2
+IQdE_?b96d5A0CRO^^1KNk2
+R1
+R2
+w1680102446
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1680103101.226000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
+!i113 0
+R4
+n@regs
+vRegs_tb
+R0
+!i10b 1
+!s100 M;=0?zFAgWEl7Pcikf1PF0
+IA>7k5CcYKGjH55F=PIZQ^1
+R1
+R2
+w1680102520
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1680103101.283000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v|
+!i113 0
+R4
+n@regs_tb
