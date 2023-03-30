@@ -3,18 +3,22 @@ output reg[31:0] data;
 input wire[31:0] addr;
 input wire en;
 
-reg[31:0] mem[0:4095];
+reg[7:0] mem[0:4095];
 
 initial begin
-    mem[0]=32'h1b;
-    mem[1]=32'h2c;
-    mem[2]=32'h9a;
-    mem[3]=32'h2d;
+    // mem[3]=8'h01;
+    // mem[2]=8'h24;
+    // mem[1]=8'h82;
+    // mem[0]=8'hB3;
+    $readmemh ("../rom.data", mem);
 end
 
 always @(addr or en) begin
     if(en)begin
-        data=mem[addr];
+        data[7:0]=mem[addr+3];
+        data[15:8]=mem[addr+2];
+        data[23:16]=mem[addr+1];
+        data[31:24]=mem[addr];
     end
 end
 endmodule

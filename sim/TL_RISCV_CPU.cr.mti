@@ -1,37 +1,9 @@
-{D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC _tb.v} {1 {vlog -work work -vopt -stats=none {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC _tb.v}
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module PC_tb
-
-Top level modules:
-	PC_tb
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module Control
 
 Top level modules:
 	Control
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Regs
-
-Top level modules:
-	Regs
-
-} {} {}} {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v} {1 {vlog -work work -vopt -stats=none {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v}
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Control_tb
-
-Top level modules:
-	Control_tb
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Regs_tb
-
-Top level modules:
-	Regs_tb
 
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -40,12 +12,33 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ALU
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM_tb.v
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Rom_tb
+-- Compiling module PC
 
 Top level modules:
-	Rom_tb
+	PC
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Rom
+
+Top level modules:
+	Rom
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Regs_tb
+
+Top level modules:
+	Regs_tb
+
+} {} {}} {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v} {1 {vlog -work work -vopt -stats=none {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control _tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Control_tb
+
+Top level modules:
+	Control_tb
 
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU_tb.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -54,11 +47,32 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ALU_tb
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
+} {} {}} {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC _tb.v} {1 {vlog -work work -vopt -stats=none {D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC _tb.v}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module PC
+-- Compiling module PC_tb
 
 Top level modules:
-	PC
+	PC_tb
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cpu_top
+
+Top level modules:
+	cpu_top
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Rom_tb
+
+Top level modules:
+	Rom_tb
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cpu_top_tb
+
+Top level modules:
+	cpu_top_tb
 
 } {} {}}
