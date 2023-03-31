@@ -1,0 +1,13 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v,1680103075,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v,,ALU,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v,1680148545,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v,,Control,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v,1680147910,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v,,ImmGen,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v,1680148254,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v,,Mux,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v,1680145019,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v,,PC,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v,1680145644,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v,,Rom,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v,1680145835,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v,,Regs,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v,1680188506,verilog,,,,cpu_top,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/vivano/TL_RISCV_CPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,

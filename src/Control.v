@@ -13,6 +13,7 @@ always @(inst) begin
         7'b0010011:begin
            bSel=1; 
            immSel=1;
+           aluSel=1;
         end
         default:begin
         end

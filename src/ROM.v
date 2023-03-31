@@ -10,7 +10,7 @@ initial begin
     // mem[2]=8'h24;
     // mem[1]=8'h82;
     // mem[0]=8'hB3;
-    $readmemh ("../rom.data", mem);
+    $readmemh ("../data/rom.data", mem);
 end
 
 always @(addr or en) begin

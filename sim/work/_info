@@ -9,315 +9,306 @@ z2
 cModel Technology
 dD:/Drivers/modeltech64_10.4/examples
 vALU
-Z0 !s110 1680148559
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
 !i10b 1
 !s100 LO9DoL9PF`c:lJ86=2c>S2
 I@J=HWfa<<dYZmAXLE3i3N3
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/TLProject/Verilog/cpu/TL_RISCV_CPU/sim
+Z1 dD:/TLProject/Verilog/cpu/TL_RISCV_CPU/sim
 w1680103075
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
 L0 1
-Z3 OL;L;10.4;61
-r1
-!s85 0
-31
-!s108 1680148559.644000
+Z2 OL;L;10.4;61
+!s108 1680249240.989000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 n@a@l@u
 vALU_tb
-Z5 !s110 1680148560
+Z4 !s110 1680249248
 !i10b 1
 !s100 :9VhEiNPUVLNSj9EOz6Ke0
-I?YL2049aiBnH<WJdGJj9_2
+I2JN2d@nS;3?dK:_VkQOB?0
+R0
 R1
-R2
 w1680103094
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ALU_tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ALU_tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ALU_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ALU_tb.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148560.220000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ALU_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ALU_tb.v|
+!s108 1680249248.484000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ALU_tb.v|
 !i113 0
-R4
+R3
 n@a@l@u_tb
 vControl
 R0
+r1
+!s85 0
+31
 !i10b 1
-!s100 PH_C9nHD:<Z^4X00?PJYg1
-InHUG>I]?Uk9d^B3:M^nBj0
+!s100 jL=FKjKSl_A7^U[YITgdk0
+IAiTJe^3E7WnY<4Ii1jWn^0
 R1
-R2
-w1680148545
+w1680249235
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.736000
+R2
+!s108 1680249241.048000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v|
 !i113 0
-R4
+R3
 n@control
 vControl_tb
-R5
+R4
 !i10b 1
 !s100 NRgn_DCjUbh27k[<I_Q1c0
-IZmgM7ao=CJ^3gK9KRmiAM2
+IgM78`8B@AmK[R8C^JMOUI0
+R0
 R1
-R2
 w1680104062
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Control _tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Control _tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Control _tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Control _tb.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148560.278000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Control _tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Control _tb.v|
+!s108 1680249248.540000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Control _tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Control _tb.v|
 !i113 0
-R4
+R3
 n@control_tb
 vcpu_top
 R0
+r1
+!s85 0
+31
 !i10b 1
-!s100 bA5[X72=S4;BbX<c:4HaZ3
-I@]g><06IDRB_dzNCkbHfh0
+!s100 e_o5bF^ddTmC1o[8aJ>UA3
+Ia;of4Q268cVcY=WP]`X?81
 R1
-R2
-w1680148510
+w1680248340
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.823000
+R2
+!s108 1680249241.105000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v|
 !i113 0
-R4
+R3
 vcpu_top_tb
 R0
-!i10b 1
-!s100 cWc@ak4E;h3nfnPPNmA?V3
-Io2AED<AKg5R=:T96g331z3
-R1
-R2
-w1680144096
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/cpu_top_tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/cpu_top_tb.v
-L0 2
-R3
 r1
 !s85 0
 31
-!s108 1680148559.905000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/cpu_top_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/cpu_top_tb.v|
+!i10b 1
+!s100 ;HY4fQ>EVPG@JnoOa^P2;3
+I:cIe:DTmIf3fJC[:b87_92
+R1
+w1680248897
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v
+L0 2
+R2
+!s108 1680249241.441000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v|
 !i113 0
-R4
+R3
 vImmGen
 R0
+r1
+!s85 0
+31
 !i10b 1
 !s100 BFh]fUWfb?Rnh^INBjCF02
 I8E:4n?0`?aaSC:^A0VP^g0
 R1
-R2
 w1680147910
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.405000
+R2
+!s108 1680249241.161000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v|
 !i113 0
-R4
+R3
 n@imm@gen
 vImmGen_tb
-R0
+!s110 1680249241
 !i10b 1
 !s100 ^m;G?_hgncfecocn>B0dB3
-IdV@;<]5ETT::zb<fP]T:J1
+Ih>:UfUM7Mj2ON>G5[`RnP0
+R0
 R1
-R2
 w1680147444
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ImmGen_tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ImmGen_tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ImmGen_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ImmGen_tb.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148559.979000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ImmGen_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ImmGen_tb.v|
+!s108 1680249241.497000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ImmGen_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ImmGen_tb.v|
 !i113 0
-R4
+R3
 n@imm@gen_tb
 vMux
-R5
+R0
+r1
+!s85 0
+31
 !i10b 1
 !s100 _k?Ke>0Zggb=_YmV_DSI01
 IMg<>TXzEP?C5OG[c@BQk=0
 R1
-R2
 w1680148254
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148560.338000
+R2
+!s108 1680249241.217000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v|
 !i113 0
-R4
+R3
 n@mux
 vPC
 R0
+r1
+!s85 0
+31
 !i10b 1
 !s100 ]7K2Z9]J@0e1<2e?7zgm60
 I9hR7`;;KPgY@lH8<zWIR_3
 R1
-R2
 w1680145019
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.466000
+R2
+!s108 1680249241.273000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v|
 !i113 0
-R4
+R3
 n@p@c
 vPC_tb
-R5
+!s110 1680249244
 !i10b 1
 !s100 gV4mC]HEf4n7kJDY`i`F50
-I0[4nYe3LUXd^2X:>EgTZi0
+IHg5;E:40o<b_900`@VQld1
+R0
 R1
-R2
 w1680105479
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/PC _tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/PC _tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/PC _tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/PC _tb.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148560.045000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/PC _tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/PC _tb.v|
+!s108 1680249244.167000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/PC _tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/PC _tb.v|
 !i113 0
-R4
+R3
 n@p@c_tb
 vRegs
 R0
+r1
+!s85 0
+31
 !i10b 1
 !s100 >AIab8egH@J_Ah@2>l[h:1
 IdU=[[40dCMG`L_4B_k:@O1
 R1
-R2
 w1680145835
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.526000
+R2
+!s108 1680249241.329000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v|
 !i113 0
-R4
+R3
 n@regs
 vRegs_tb
-R5
+!s110 1680249245
 !i10b 1
 !s100 M;=0?zFAgWEl7Pcikf1PF0
-IfP_nbjm=:QhIl>Hl0<VX^2
+I<4Ah62zGLkQIMTco0l_=V1
+R0
 R1
-R2
 w1680102520
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Regs_tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Regs_tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Regs_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Regs_tb.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148560.104000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Regs_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/Regs_tb.v|
+!s108 1680249245.279000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Regs_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/Regs_tb.v|
 !i113 0
-R4
+R3
 n@regs_tb
 vRom
 R0
+r1
+!s85 0
+31
 !i10b 1
-!s100 0FOlFTO<9MQBhIejc=FDW2
-I]`?YfQ6405EkCnLVIfZg53
+!s100 :]RT1X4Pz;]>=GD2n>]NN1
+IzIS0ChWThUU8eSk>O?oUQ3
 R1
-R2
-w1680145644
+w1680248398
 8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v
 FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1680148559.583000
+R2
+!s108 1680249241.385000
 !s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v|
 !i113 0
-R4
+R3
 n@rom
 vRom_tb
-R5
+R4
 !i10b 1
 !s100 b5IjJ1b?BM]cigaOB`Q0F2
-IABTK]aGC`5Dannd660Who0
+IMzV4knSfNCFnRKaRbdZ6H1
+R0
 R1
-R2
 w1680140379
-8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ROM_tb.v
-FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ROM_tb.v
+8D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ROM_tb.v
+FD:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ROM_tb.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1680148560.162000
-!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ROM_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/tb/ROM_tb.v|
+!s108 1680249248.428000
+!s107 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ROM_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/ROM_tb.v|
 !i113 0
-R4
+R3
 n@rom_tb

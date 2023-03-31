@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/vivano/TL_RISCV_CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
