@@ -15,11 +15,11 @@ add wave -noupdate /cpu_top_tb/cpu_inst/aluDataB
 add wave -noupdate /cpu_top_tb/cpu_inst/aluDataOut
 add wave -noupdate /cpu_top_tb/cpu_inst/RamOut
 add wave -noupdate /cpu_top_tb/cpu_inst/regs_inst/regs
-add wave -noupdate /cpu_top_tb/cpu_inst/ram_inst/data
+add wave -noupdate -radix binary /cpu_top_tb/cpu_inst/ram_inst/data
 add wave -noupdate /cpu_top_tb/cpu_inst/ram_inst/addr
-add wave -noupdate -expand /cpu_top_tb/cpu_inst/ram_inst/mem
+add wave -noupdate /cpu_top_tb/cpu_inst/ram_inst/mem
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {194400 ps} 0}
+WaveRestoreCursors {{Cursor 1} {112800 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 251
 configure wave -valuecolwidth 326

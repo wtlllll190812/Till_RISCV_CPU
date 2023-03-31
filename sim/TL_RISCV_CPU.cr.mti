@@ -47,11 +47,9 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Rom
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {2 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module Regs
-** Warning: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v(16): (vlog-2182) 'regs' might be read before written in always_comb or always @* block.
-
 
 Top level modules:
 	Regs
