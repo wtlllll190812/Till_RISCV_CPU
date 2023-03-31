@@ -1,0 +1,3 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+WARNING: File ../rom.data referenced on D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v at line 13 cannot be opened for reading. Please ensure that this file is available in the current working directory.

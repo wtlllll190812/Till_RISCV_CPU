@@ -13,8 +13,8 @@ initial begin
 end
 
 always @(*) begin
-    regs[addrD]=dataD;
     dataA=regs[addrA];
     dataB=regs[addrB];
+    regs[addrD]=dataD;
 end
 endmodule

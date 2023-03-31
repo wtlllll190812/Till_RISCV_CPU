@@ -1,6 +1,6 @@
 module Control (inst,aluSel,bSel,immSel,wDataSel,ramSel);
 input wire[31:0] inst;
-output reg bSel,immSel,wDataSel;
+output reg bSel,immSel,wDataSel,;
 output reg[3:0] aluSel;
 output reg[2:0] ramSel;
 
