@@ -1,10 +1,14 @@
 module cpu_top(clk);
 input clk;
 
+
 wire [31:0] addrPc;
+wire pcSel;
 PC pc_inst(
     .addrPc(addrPc),
-    .clk(clk)
+    .newPcAddr(newPcAddr),
+    .clk(clk),
+    .pcSel(pcSel)
     );
 
 wire [31:0] inst;
@@ -24,7 +28,7 @@ ImmGen immGen_inst(
     );
 
 wire [31:0] dataA,dataB,dataD;
-wire bSel,wDataSel,regsWEn;
+wire dataBSel,dataASel,writeDataSel,regsWriteEn;
 Regs regs_inst(
     .addrA(inst[19:15]),
     .addrB(inst[24:20]),
@@ -32,34 +36,44 @@ Regs regs_inst(
     .dataA(dataA),
     .dataB(dataB),
     .dataD(dataD),
-    .wEn(regsWEn)
+    .wEn(regsWriteEn)
     );
 
-wire [3:0] aluSel;
-wire [3:0] ramSel;
+wire [3:0] aluMode;
+wire [3:0] ramMode;
 Control Control_inst(
     .inst(inst),
-    .aluSel(aluSel),
+    .aluMode(aluMode),
     .immSel(ImmSel),
-    .bSel(bSel),
-    .ramSel(ramSel),
-    .wDataSel(wDataSel),
-    .regsWEn(regsWEn),
-    .immInputData(immInputData)
+    .dataBSel(dataBSel),
+    .ramMode(ramMode),
+    .writeDataSel(writeDataSel),
+    .regsWriteEn(regsWriteEn),
+    .immInputData(immInputData),
+    .dataASel(dataASel),
+    .pcSel(pcSel)
 );
 
-wire [31:0] aluDataB;
+wire [31:0] aluDataA,aluDataB;
 wire [31:0] aluDataOut;
-Mux mux_bSel(
+Mux mux_dataBSel(
     .in1(dataB),
     .in2(imm),
-    .sel(bSel),
+    .sel(dataBSel),
     .out(aluDataB)
     );
+
+Mux mux_dataASel(
+    .in1(dataA),
+    .in2(addrPc),
+    .sel(dataASel),
+    .out(aluDataA)
+    );
+    
 ALU alu_inst(
-    .ra(dataA),
+    .ra(aluDataA),
     .rb(aluDataB),
-    .sel(aluSel),
+    .sel(aluMode),
     .out(aluDataOut)
     );
 
@@ -68,12 +82,12 @@ RAM ram_inst(
     .addr(aluDataOut),
     .data(RamOut),
     .dataWrite(dataB),
-    .sel(ramSel)
+    .sel(ramMode)
     );
 Mux mux_wData(
     .in1(aluDataOut),
     .in2(RamOut),
-    .sel(wDataSel),
+    .sel(writeDataSel),
     .out(dataD)
     );
 

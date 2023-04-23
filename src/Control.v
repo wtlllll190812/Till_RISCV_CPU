@@ -1,40 +1,50 @@
 module Control (
     input wire[31:0] inst,
-    output reg bSel,immSel,wDataSel,regsWEn,
-    output reg[3:0] aluSel,
-    output reg[3:0] ramSel,
+    input wire eq,lt;
+    output reg dataASel,dataBSel,pcSel,immSel,writeDataSel,regsWriteEn,
+    output reg[3:0] aluMode,
+    output reg[3:0] ramMode,
     output reg[11:0] immInputData
 );
 
 always @(inst) begin
-    aluSel=4'b0000;
-    bSel=0;
+    pcSel=0;
+    dataASel=0;
+    dataBSel=0;
     immSel=0;
-    wDataSel=0;
-    regsWEn=1;
+    writeDataSel=0;
+    regsWriteEn=1;
+    aluMode=4'b0000;
     case(inst[6:0])
         7'b0110011:begin                   //R型指令
-            aluSel={inst[14:12],inst[30]};
+            aluMode={inst[14:12],inst[30]};
         end
         7'b0010011:begin                   //算术I型指令
-            bSel=1; 
+            dataBSel=1; 
             immSel=1;
-            aluSel={inst[14:12],inst[30]};
+            aluMode={inst[14:12],inst[30]};
             immInputData=inst[31:20];
         end
         7'b0000011:begin                   //加载I型指令
             immSel=1;
-            bSel=1;
-            wDataSel=1;
-            ramSel={inst[14:12],1'b0};
+            dataBSel=1;
+            writeDataSel=1;
+            ramMode={inst[14:12],1'b0};
             immInputData=inst[31:20];
         end
         7'b0100011:begin                   //S型指令
-            regsWEn=0;
+            regsWriteEn=0;
             immSel=1;
-            bSel=1;
+            dataBSel=1;
             immInputData={inst[31:25],inst[11:7]};
-            ramSel={inst[14:12],1'b1};
+            ramMode={inst[14:12],1'b1};
+        end
+        7'b1100011:begin                   //SB型指令
+            regsWriteEn=0;
+            immSel=1;
+            dataBSel=1;
+            immInputData={inst[31:25],inst[11:7]};
+            ramMode={inst[14:12],1'b1};
         end
         default:begin
 		

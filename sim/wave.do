@@ -8,9 +8,9 @@ add wave -noupdate /cpu_top_tb/cpu_inst/imm
 add wave -noupdate -radix decimal /cpu_top_tb/cpu_inst/dataA
 add wave -noupdate -radix decimal /cpu_top_tb/cpu_inst/dataB
 add wave -noupdate -radix decimal /cpu_top_tb/cpu_inst/dataD
-add wave -noupdate /cpu_top_tb/cpu_inst/aluSel
+add wave -noupdate /cpu_top_tb/cpu_inst/aluMode
 add wave -noupdate /cpu_top_tb/cpu_inst/bSel
-add wave -noupdate /cpu_top_tb/cpu_inst/wDataSel
+add wave -noupdate /cpu_top_tb/cpu_inst/writeDataSel
 add wave -noupdate /cpu_top_tb/cpu_inst/aluDataB
 add wave -noupdate /cpu_top_tb/cpu_inst/aluDataOut
 add wave -noupdate /cpu_top_tb/cpu_inst/RamOut
