@@ -1,0 +1,42 @@
+Date : 2023-04-08 23:54:32
+Directory : d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src
+Total : 16 files,  342 codes, 4 comments, 40 blanks, all 386 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Verilog  |         16 |        342 |          4 |         40 |        386 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                          |         16 |        342 |          4 |         40 |        386 |
+| . (Files)                                                  |          9 |        235 |          4 |         26 |        265 |
+| tb                                                         |          7 |        107 |          0 |         14 |        121 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                   | language | code       | comment    | blank      | total      |
++------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ALU.v            | Verilog  |         24 |          0 |          4 |         28 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Control.v        | Verilog  |         41 |          0 |          2 |         43 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ImmGen.v         | Verilog  |         10 |          0 |          1 |         11 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Mux.v            | Verilog  |          6 |          0 |          1 |          7 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\PC.v             | Verilog  |         12 |          0 |          1 |         13 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\RAM.v            | Verilog  |         33 |          0 |          3 |         36 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ROM.v            | Verilog  |         17 |          4 |          3 |         24 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Regs.v           | Verilog  |         20 |          0 |          3 |         23 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\cpu_top.v        | Verilog  |         72 |          0 |          8 |         80 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\ALU_tb.v      | Verilog  |         21 |          0 |          4 |         25 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\Control _tb.v | Verilog  |         11 |          0 |          2 |         13 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\ImmGen_tb.v   | Verilog  |         14 |          0 |          0 |         14 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\PC _tb.v      | Verilog  |         10 |          0 |          1 |         11 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\ROM_tb.v      | Verilog  |         13 |          0 |          1 |         14 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\Regs_tb.v     | Verilog  |         29 |          0 |          6 |         35 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\cpu_top_tb.v  | Verilog  |          9 |          0 |          0 |          9 |
+| Total                                                      |          |        342 |          4 |         40 |        386 |
++------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -1,6 +1,7 @@
-addi s1, s1, 100 # t0 = ts1+ 100
-sw s1 2(zero)
-lw s2, 2(zero) # 
-add t0, s1, s2 # t0 = s1 + s2
-add t0, s1, s2 # t0 = s1 + s2
-add t0, s1, s2 # t0 = s1 + s2
+addi s2, s1, 100
+addi x0, x0, 100
+sw s1 4(zero)
+sw s2 8(zero)
+lw s3, 4(zero)
+lw s4, 8(zero)
+add t0, s3, s4

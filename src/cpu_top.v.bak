@@ -25,6 +25,6 @@ Mux mux_bSel(.in1(dataB),.in2(imm),.sel(bSel),.out(aluDataB));
 ALU alu_inst(.ra(dataA),.rb(aluDataB),.sel(aluSel),.out(aluDataOut));
 
 wire [31:0] RamOut;
-Ram ram_inst(.addr(aluDataOut),.data(RamOut),.sel(ramSel));
+RAM ram_inst(.addr(aluDataOut),.data(RamOut),.sel(ramSel));
 Mux mux_wData(.in1(aluDataOut),.in2(RamOut),.sel(wDataSel),.out(dataD));
 endmodule

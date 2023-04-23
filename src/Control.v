@@ -26,14 +26,15 @@ always @(inst) begin
             immSel=1;
             bSel=1;
             wDataSel=1;
-            ramSel={inst[14:12],1'b1};
+            ramSel={inst[14:12],1'b0};
             immInputData=inst[31:20];
         end
         7'b0100011:begin                   //S型指令
             regsWEn=0;
             immSel=1;
             bSel=1;
-            ramSel={inst[14:12],1'b0};
+            immInputData={inst[31:25],inst[11:7]};
+            ramSel={inst[14:12],1'b1};
         end
         default:begin
 		

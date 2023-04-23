@@ -64,7 +64,7 @@ ALU alu_inst(
     );
 
 wire [31:0] RamOut;
-Ram ram_inst(
+RAM ram_inst(
     .addr(aluDataOut),
     .data(RamOut),
     .dataWrite(dataB),
