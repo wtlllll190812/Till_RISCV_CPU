@@ -5,13 +5,16 @@ output reg[31:0]  addrPc;
 
 reg[31:0] data=32'd0;
 initial begin
-    addrPc=0;
+    addrPc=-4;
 end
 always @(posedge clk) begin
-    if(pcSel)
+    if(pcSel)begin
         data=newPcAddr;
-
-    addrPc=data;
+        addrPc=data;
+        end
+    else begin
+        addrPc=data;
+    end
     data=data+4;
 end
 endmodule

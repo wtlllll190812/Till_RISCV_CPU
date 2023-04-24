@@ -4,6 +4,6 @@ reg clk=1;
 always #100 clk = ~clk;     // 5MHz
 cpu_top cpu_inst(.clk(clk));
 initial begin
-    #2000 $stop;
+    #3000 $stop;
 end
 endmodule

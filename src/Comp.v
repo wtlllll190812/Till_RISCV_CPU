@@ -1,4 +1,4 @@
-module comp(a,b,eq,lt);
+module Comp(a,b,eq,lt);
     input wire[31:0] a,b;
     output wire eq,lt;
     

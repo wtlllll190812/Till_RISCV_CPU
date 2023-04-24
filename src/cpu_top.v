@@ -3,10 +3,11 @@ input clk;
 
 
 wire [31:0] addrPc;
+wire [31:0] aluDataOut;
 wire pcSel;
 PC pc_inst(
     .addrPc(addrPc),
-    .newPcAddr(newPcAddr),
+    .newPcAddr(aluDataOut),
     .clk(clk),
     .pcSel(pcSel)
     );
@@ -20,7 +21,7 @@ Rom rom_inst(
 
 wire ImmSel;
 wire [31:0] imm;
-wire [11:0] immInputData;
+wire [12:0] immInputData;
 ImmGen immGen_inst(
     .inst_imm(immInputData),
     .immSel(ImmSel),
@@ -36,7 +37,16 @@ Regs regs_inst(
     .dataA(dataA),
     .dataB(dataB),
     .dataD(dataD),
-    .wEn(regsWriteEn)
+    .wEn(regsWriteEn),
+    .clk(clk)
+    );
+
+wire eq,lt;
+Comp comp_inst(
+    .a(dataA),
+    .b(dataB),
+    .eq(eq),
+    .lt(lt)
     );
 
 wire [3:0] aluMode;
@@ -51,11 +61,12 @@ Control Control_inst(
     .regsWriteEn(regsWriteEn),
     .immInputData(immInputData),
     .dataASel(dataASel),
-    .pcSel(pcSel)
+    .pcSel(pcSel),
+    .eq(eq),
+    .lt(lt)
 );
 
 wire [31:0] aluDataA,aluDataB;
-wire [31:0] aluDataOut;
 Mux mux_dataBSel(
     .in1(dataB),
     .in2(imm),

@@ -1,9 +1,37 @@
-D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module RAM
+-- Compiling module Control
 
 Top level modules:
-	RAM
+	Control
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Mux
+
+Top level modules:
+	Mux
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/RAM_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/RAM_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAM_tb
+
+Top level modules:
+	RAM_tb
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
 
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/cpu_top_tb.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -19,29 +47,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ImmGen
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {2 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Regs
-** Warning: D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v(18): (vlog-2182) 'regs' might be read before written in always_comb or always @* block.
-
-
-Top level modules:
-	Regs
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module cpu_top
-
-Top level modules:
-	cpu_top
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/RAM_tb.v {1 {vlog -work work -vopt -stats=none {D:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\RAM_tb.v}
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module RAM_tb
-
-Top level modules:
-	RAM_tb
-
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module Rom
@@ -49,25 +54,18 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Rom
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Mux
+-- Compiling module RAM
 
 Top level modules:
-	Mux
+	RAM
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ALU
+-- Compiling module Comp
 
 Top level modules:
-	ALU
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module PC
-
-Top level modules:
-	PC
+	Comp
 
 } {} {}}

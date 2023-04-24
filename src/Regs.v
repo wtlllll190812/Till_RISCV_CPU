@@ -1,7 +1,8 @@
-module Regs(addrA,addrB,addrD,dataA,dataB,dataD,wEn);
-input  wire[4:0] addrA,addrB,addrD;
+module Regs(addrA,addrB,addrD,dataA,dataB,dataD,wEn,clk);
+input wire[4:0] addrA,addrB,addrD;
 input wire[31:0] dataD;
 input wire wEn;
+input wire clk;
 
 output reg[31:0] dataA,dataB;
 reg [31:0] regs[31:0];
@@ -14,14 +15,15 @@ initial begin
     end
 end
 
-always @(*) begin
+always @(addrA or addrB or addrD) begin
     dataA=regs[addrA];
     dataB=regs[addrB];  
-    if(wEn&&addrD!=5'd0)begin
+end
+
+always @(posedge clk)
+begin
+    if(wEn&&addrD!=5'd0) begin
         regs[addrD]=dataD;
-    end
-    else begin
-        regs[addrD]=0;
     end
 end
 endmodule
