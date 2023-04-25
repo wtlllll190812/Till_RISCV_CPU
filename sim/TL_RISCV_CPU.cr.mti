@@ -54,13 +54,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Rom
 
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module RAM
-
-Top level modules:
-	RAM
-
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux3to1.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux3to1.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module Mux3to1

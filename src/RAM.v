@@ -24,10 +24,10 @@ always @(addr or sel or dataWrite) begin
             if(sel[0]){mem[addr],mem[addr+1],mem[addr+2],mem[addr+3]}=dataWrite;
             else data={mem[addr],mem[addr+1],mem[addr+2],mem[addr+3]};
         end
-        3'b100:begin //sd
+        3'b100:begin //lbu
             data={{24{1'h0}},mem[addr]}; //符号拓展
         end
-        3'b101:begin 
+        3'b101:begin //lhu
             data={{16{1'h0}},mem[addr],mem[addr+1]}; //符号拓展
         end
         default:begin
