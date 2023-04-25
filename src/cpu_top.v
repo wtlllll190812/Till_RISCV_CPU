@@ -1,10 +1,11 @@
-module cpu_top(clk);
-input clk;
-
+module cpu_top(
+    input wire clk
+);
 
 wire [31:0] addrPc;
 wire [31:0] aluDataOut;
 wire pcSel;
+
 PC pc_inst(
     .addrPc(addrPc),
     .newPcAddr(aluDataOut),
@@ -21,15 +22,15 @@ Rom rom_inst(
 
 wire ImmSel;
 wire [31:0] imm;
-wire signed [20:0] immInputData;
+wire signed [20:0] imm_input;
 ImmGen immGen_inst(
-    .inst_imm(immInputData),
+    .inst_imm(imm_input),
     .immSel(ImmSel),
     .imm(imm)
     );
 
 wire [31:0] dataA,dataB,dataD;
-wire [1:0] writeDataSel;
+wire [1:0] write_sel;
 wire dataBSel,dataASel,regsWriteEn;
 Regs regs_inst(
     .addrA(inst[19:15]),
@@ -44,28 +45,28 @@ Regs regs_inst(
 
 wire eq,lt;
 Comp comp_inst(
-    .a(dataA),
-    .b(dataB),
+    .dataA(dataA),
+    .dataB(dataB),
     .eq(eq),
     .lt(lt)
     );
 
-wire [3:0] aluMode;
-wire [3:0] ramMode;
+wire [3:0] alu_mode;
+wire [3:0] ram_mode;
 Control Control_inst(
     .inst(inst),
-    .aluMode(aluMode),
-    .immSel(ImmSel),
-    .dataBSel(dataBSel),
-    .ramMode(ramMode),
-    .writeDataSel(writeDataSel),
-    .regsWriteEn(regsWriteEn),
-    .immInputData(immInputData),
-    .dataASel(dataASel),
-    .pcSel(pcSel),
     .eq(eq),
-    .lt(lt)
-);
+    .lt(lt),
+    .immSel(ImmSel),
+    .dataASel(dataASel),
+    .dataBSel(dataBSel),
+    .write_sel(write_sel),
+    .regsWriteEn(regsWriteEn),
+    .ram_mode(ram_mode),
+    .alu_mode(alu_mode),
+    .pcSel(pcSel),
+    .imm_input(imm_input)
+    );
 
 wire [31:0] aluDataA,aluDataB;
 Mux2to1 Mux2to1_dataBSel(
@@ -83,9 +84,9 @@ Mux2to1 Mux2to1_dataASel(
     );
     
 ALU alu_inst(
-    .ra(aluDataA),
-    .rb(aluDataB),
-    .sel(aluMode),
+    .dataA(aluDataA),
+    .dataB(aluDataB),
+    .sel(alu_mode),
     .out(aluDataOut)
     );
 
@@ -94,13 +95,14 @@ RAM ram_inst(
     .addr(aluDataOut),
     .data(RamOut),
     .dataWrite(dataB),
-    .sel(ramMode)
+    .sel(ram_mode)
     );
+    
 Mux3to1 Mux3to1_wData(
     .in1(aluDataOut),
     .in2(RamOut),
     .in3(addrPc+4),
-    .sel(writeDataSel),
+    .sel(write_sel),
     .out(dataD)
     );
 

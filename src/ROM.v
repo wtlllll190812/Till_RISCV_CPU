@@ -1,15 +1,12 @@
-module Rom(addr,data,en);
-output reg[31:0] data;
-input wire[31:0] addr;
-input wire en;
+module Rom(
+    output reg[31:0] data,
+    input wire[31:0] addr,
+    input wire en
+    );
 
 reg[7:0] mem[0:4095];
 
 initial begin
-    // mem[3]=8'h01;
-    // mem[2]=8'h24;
-    // mem[1]=8'h82;
-    // mem[0]=8'hB3;
     $readmemh ("../data/rom.data", mem);
 end
 

@@ -1,7 +1,8 @@
-module RAM(addr,sel,dataWrite,data);
-output reg[31:0] data;
-input wire[31:0] addr,dataWrite;
-input wire[3:0] sel;
+module RAM(
+    output reg[31:0] data,
+    input wire[31:0] addr,dataWrite,
+    input wire[3:0] sel
+    );
 
 reg[7:0] mem[0:4095];
 
@@ -11,15 +12,15 @@ end
 
 always @(addr or sel or dataWrite) begin
     case(sel[3:1])
-        3'b000:begin //sb
+        3'b000:begin //sb和lb
             if(sel[0]) mem[addr]=dataWrite[7:0];//符号拓展
             else data={{24{mem[addr][7]}},mem[addr]};
         end
-        3'b001:begin //sh
+        3'b001:begin //sh和lh
             if(sel[0]){mem[addr],mem[addr+1]}=dataWrite[15:0];
             else data={{16{mem[addr][7]}},mem[addr],mem[addr+1]};  
         end
-        3'b010:begin //sw
+        3'b010:begin //sw和lw
             if(sel[0]){mem[addr],mem[addr+1],mem[addr+2],mem[addr+3]}=dataWrite;
             else data={mem[addr],mem[addr+1],mem[addr+2],mem[addr+3]};
         end

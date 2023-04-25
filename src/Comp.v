@@ -1,7 +1,11 @@
-module Comp(a,b,eq,lt);
-    input wire[31:0] a,b;
-    output wire eq,lt;
-    
-    assign eq = (a==b);
-    assign lt = (a<b);
+module Comp(
+    input wire[31:0] dataA,dataB,
+    output wire eq,lt
+);
+
+begin
+    assign eq = (dataA==dataB);
+    assign lt = (dataA<dataB);
+end
+
 endmodule

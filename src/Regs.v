@@ -1,10 +1,11 @@
-module Regs(addrA,addrB,addrD,dataA,dataB,dataD,wEn,clk);
-input wire[4:0] addrA,addrB,addrD;
-input wire[31:0] dataD;
-input wire wEn;
-input wire clk;
+module Regs(
+    input wire[4:0] addrA,addrB,addrD,
+    input wire[31:0] dataD,
+    input wire wEn,
+    input wire clk,
+    output reg[31:0] dataA,dataB
+    );
 
-output reg[31:0] dataA,dataB;
 reg [31:0] regs[31:0];
 
 integer i;
