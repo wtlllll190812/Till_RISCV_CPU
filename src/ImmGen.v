@@ -1,5 +1,5 @@
 module ImmGen(
-    input wire signed[12:0] inst_imm,
+    input wire signed[20:0] inst_imm,
     input immSel,
     output reg signed[31:0]imm);
 

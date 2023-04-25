@@ -21,7 +21,7 @@ Rom rom_inst(
 
 wire ImmSel;
 wire [31:0] imm;
-wire [12:0] immInputData;
+wire signed [20:0] immInputData;
 ImmGen immGen_inst(
     .inst_imm(immInputData),
     .immSel(ImmSel),
