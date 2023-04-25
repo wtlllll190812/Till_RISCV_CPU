@@ -23,7 +23,7 @@ Files
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ALU.v     | Verilog  |         35 |          0 |          5 |         40 |
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Control.v | Verilog  |         20 |          0 |          1 |         21 |
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ImmGen.v  | Verilog  |         10 |          0 |          1 |         11 |
-| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Mux.v     | Verilog  |          6 |          0 |          1 |          7 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Mux2to1.v     | Verilog  |          6 |          0 |          1 |          7 |
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\PC.v      | Verilog  |         12 |          0 |          1 |         13 |
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\ROM.v     | Verilog  |         17 |          4 |          3 |         24 |
 | d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Regs.v    | Verilog  |         17 |          0 |          3 |         20 |

@@ -6,5 +6,5 @@ lw s3, 4(zero)
 lw s4, 8(zero)
 label1:
     sub s3, s3, s4
-beq s3, s4, label1
 add t0, s3, s4
+jalr t0, x0,label1

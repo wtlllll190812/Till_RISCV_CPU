@@ -21,10 +21,10 @@ Control Control_inst(.inst(inst),.aluMode(aluMode),.immSel(ImmSel),.bSel(bSel),.
 
 wire [31:0] aluDataB;
 wire [31:0] aluDataOut;
-Mux mux_bSel(.in1(dataB),.in2(imm),.sel(bSel),.out(aluDataB));
+Mux2to1 Mux2to1_bSel(.in1(dataB),.in2(imm),.sel(bSel),.out(aluDataB));
 ALU alu_inst(.ra(dataA),.rb(aluDataB),.sel(aluMode),.out(aluDataOut));
 
 wire [31:0] RamOut;
 RAM ram_inst(.addr(aluDataOut),.data(RamOut),.sel(ramMode));
-Mux mux_wData(.in1(aluDataOut),.in2(RamOut),.sel(writeDataSel),.out(dataD));
+Mux2to1 Mux2to1_wData(.in1(aluDataOut),.in2(RamOut),.sel(writeDataSel),.out(dataD));
 endmodule

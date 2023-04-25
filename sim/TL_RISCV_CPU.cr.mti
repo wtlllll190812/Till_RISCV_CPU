@@ -1,16 +1,9 @@
-D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Control
+-- Compiling module Mux2to1
 
 Top level modules:
-	Control
-
-} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Mux
-
-Top level modules:
-	Mux
+	Mux2to1
 
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/RAM_tb.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/tb/RAM_tb.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -60,6 +53,27 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	RAM
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux3to1.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux3to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Mux3to1
+
+Top level modules:
+	Mux3to1
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Regs
+
+Top level modules:
+	Regs
+
+} {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cpu_top
+
+Top level modules:
+	cpu_top
 
 } {} {}} D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v {1 {vlog -work work -vopt -stats=none D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014

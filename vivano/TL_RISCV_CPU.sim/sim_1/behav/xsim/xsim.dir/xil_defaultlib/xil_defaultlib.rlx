@@ -4,8 +4,8 @@ Dec 15 2017
 21:07:18
 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v,1680103075,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v,,ALU,,,,,,,,
 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v,1680148545,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v,,Control,,,,,,,,
-D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v,1680147910,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v,,ImmGen,,,,,,,,
-D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v,1680148254,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v,,Mux,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v,1680147910,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v,,ImmGen,,,,,,,,
+D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v,1680148254,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v,,Mux2to1,,,,,,,,
 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v,1680145019,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v,,PC,,,,,,,,
 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v,1680145644,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v,,Rom,,,,,,,,
 D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v,1680145835,verilog,,D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v,,Regs,,,,,,,,

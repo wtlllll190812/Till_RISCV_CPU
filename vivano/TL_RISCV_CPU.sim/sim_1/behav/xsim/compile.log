@@ -4,8 +4,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_C
 INFO: [VRFC 10-311] analyzing module Control
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ImmGen.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ImmGen
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2to1
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module PC
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v" into library xil_defaultlib

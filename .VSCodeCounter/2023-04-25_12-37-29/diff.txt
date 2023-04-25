@@ -1,0 +1,34 @@
+Date : 2023-04-25 12:37:29
+Directory : d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src
+Total : 8 files,  106 codes, 0 comments, 10 blanks, all 116 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Verilog  |          8 |        106 |          0 |         10 |        116 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                            | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                               |          8 |        106 |          0 |         10 |        116 |
+| . (Files)                                                       |          6 |         75 |          0 |          7 |         82 |
+| tb                                                              |          2 |         31 |          0 |          3 |         34 |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                        | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Comp.v                | Verilog  |          6 |          0 |          1 |          7 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Control.v             | Verilog  |         28 |          0 |          0 |         28 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Mux3to1.v             | Verilog  |          6 |          0 |          1 |          7 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\PC.v                  | Verilog  |          7 |          0 |          0 |          7 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\Regs.v                | Verilog  |          5 |          0 |          1 |          6 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\cpu_top.v             | Verilog  |         23 |          0 |          4 |         27 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\Control _tb copy.v | Verilog  |         11 |          0 |          2 |         13 |
+| d:\TLProject\Verilog\cpu\TL_RISCV_CPU\src\tb\RAM_tb.v           | Verilog  |         20 |          0 |          1 |         21 |
+| Total                                                           |          |        106 |          0 |         10 |        116 |
++-----------------------------------------------------------------+----------+------------+------------+------------+------------+

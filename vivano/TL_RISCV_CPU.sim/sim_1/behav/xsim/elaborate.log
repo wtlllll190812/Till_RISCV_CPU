@@ -14,7 +14,7 @@ Compiling module xil_defaultlib.Rom
 Compiling module xil_defaultlib.ImmGen
 Compiling module xil_defaultlib.Regs
 Compiling module xil_defaultlib.Control
-Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.Mux2to1
 Compiling module xil_defaultlib.ALU
 Compiling module xil_defaultlib.cpu_top
 Compiling module xil_defaultlib.glbl

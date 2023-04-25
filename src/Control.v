@@ -1,7 +1,8 @@
 module Control (
     input wire[31:0] inst,
     input wire eq,lt,
-    output reg dataASel,dataBSel,pcSel,immSel,writeDataSel,regsWriteEn,
+    output reg dataASel,dataBSel,pcSel,immSel,regsWriteEn,
+    output reg[1:0] writeDataSel,
     output reg[3:0] aluMode,
     output reg[3:0] ramMode,
     output reg[12:0] immInputData
@@ -12,7 +13,7 @@ always @(inst) begin
     dataASel=0;
     dataBSel=0;
     immSel=0;
-    writeDataSel=0;
+    writeDataSel=2'b00;
     regsWriteEn=1;
     aluMode=4'b0000;
     case(inst[6:0])
@@ -28,7 +29,7 @@ always @(inst) begin
         7'b0000011:begin                   //加载I型指令
             immSel=1;
             dataBSel=1;
-            writeDataSel=1;
+            writeDataSel=2'b01;
             immInputData={1'b0,inst[31:20]};
             ramMode={inst[14:12],1'b0};
         end
@@ -54,6 +55,13 @@ always @(inst) begin
                 default:begin
                 end
             endcase
+        end
+        7'b1100111:begin                   //JI型指令
+            pcSel=1;
+            immSel=1;
+            dataBSel=1;
+            writeDataSel=2'b10;
+            immInputData={1'b0,inst[31:20]};
         end
         default:begin
 		

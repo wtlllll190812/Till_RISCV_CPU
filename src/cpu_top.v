@@ -29,7 +29,8 @@ ImmGen immGen_inst(
     );
 
 wire [31:0] dataA,dataB,dataD;
-wire dataBSel,dataASel,writeDataSel,regsWriteEn;
+wire [1:0] writeDataSel;
+wire dataBSel,dataASel,regsWriteEn;
 Regs regs_inst(
     .addrA(inst[19:15]),
     .addrB(inst[24:20]),
@@ -67,14 +68,14 @@ Control Control_inst(
 );
 
 wire [31:0] aluDataA,aluDataB;
-Mux mux_dataBSel(
+Mux2to1 Mux2to1_dataBSel(
     .in1(dataB),
     .in2(imm),
     .sel(dataBSel),
     .out(aluDataB)
     );
 
-Mux mux_dataASel(
+Mux2to1 Mux2to1_dataASel(
     .in1(dataA),
     .in2(addrPc),
     .sel(dataASel),
@@ -95,9 +96,10 @@ RAM ram_inst(
     .dataWrite(dataB),
     .sel(ramMode)
     );
-Mux mux_wData(
+Mux3to1 Mux3to1_wData(
     .in1(aluDataOut),
     .in2(RamOut),
+    .in3(addrPc+4),
     .sel(writeDataSel),
     .out(dataD)
     );
