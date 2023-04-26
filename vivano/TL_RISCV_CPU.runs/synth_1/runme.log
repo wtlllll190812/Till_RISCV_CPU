@@ -1,0 +1,40 @@
+
+*** Running vivado
+    with args -log cpu_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source cpu_top.tcl -notrace
+Command: synth_design -top cpu_top -part xc7a200tfbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30180 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 344.891 ; gain = 101.145
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cpu_top' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/cpu_top.v:1]
+INFO: [Synth 8-638] synthesizing module 'PC' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v:1]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/PC.v:1]
+INFO: [Synth 8-638] synthesizing module 'Rom' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v:1]
+INFO: [Synth 8-3876] $readmem data file '../data/rom.data' is read successfully [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v:10]
+INFO: [Synth 8-256] done synthesizing module 'Rom' (2#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ROM.v:1]
+INFO: [Synth 8-638] synthesizing module 'Regs' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Regs' (3#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Regs.v:1]
+INFO: [Synth 8-638] synthesizing module 'Comp' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Comp' (4#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Comp.v:1]
+INFO: [Synth 8-638] synthesizing module 'Control' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v:1]
+WARNING: [Synth 8-567] referenced signal 'eq' should be on the sensitivity list [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v:11]
+WARNING: [Synth 8-567] referenced signal 'lt' should be on the sensitivity list [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v:11]
+INFO: [Synth 8-256] done synthesizing module 'Control' (5#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Control.v:1]
+INFO: [Synth 8-638] synthesizing module 'Mux2to1' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Mux2to1' (6#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/Mux2to1.v:1]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (7#1) [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'RAM' [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v:1]
+WARNING: [Synth 8-2898] ignoring malformed $readmem task: invalid memory name [D:/TLProject/Verilog/cpu/TL_RISCV_CPU/src/RAM.v:10]

@@ -20,14 +20,14 @@ Rom rom_inst(
     .en(1)
     );
 
-wire ImmSel;
-wire [31:0] imm;
-wire signed [20:0] imm_input;
-ImmGen immGen_inst(
-    .inst_imm(imm_input),
-    .immSel(ImmSel),
-    .imm(imm)
-    );
+// wire ImmSel;
+// wire [31:0] imm;
+wire signed [31:0] imm;
+// ImmGen immGen_inst(
+//     .inst_imm(imm_input),
+//     .immSel(ImmSel),
+//     .imm(imm)
+//     );
 
 wire [31:0] dataA,dataB,dataD;
 wire [1:0] write_sel;
@@ -65,7 +65,7 @@ Control Control_inst(
     .ram_mode(ram_mode),
     .alu_mode(alu_mode),
     .pcSel(pcSel),
-    .imm_input(imm_input)
+    .imm_input(imm)
     );
 
 wire [31:0] aluDataA,aluDataB;

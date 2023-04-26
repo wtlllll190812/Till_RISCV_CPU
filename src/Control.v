@@ -5,7 +5,7 @@ module Control (
     output reg[1:0] write_sel,
     output reg[3:0] alu_mode,
     output reg[3:0] ram_mode,
-    output reg signed[20:0] imm_input
+    output reg signed[31:0] imm_input
 );
 
 always @(inst) begin
@@ -26,27 +26,27 @@ always @(inst) begin
             dataBSel=1; 
             immSel=1;
             alu_mode={inst[14:12],inst[30]};
-            imm_input=inst[31:20];
+            imm_input=$signed(inst[31:20]);
         end
         7'b0000011:begin                   //加载I型指令
             immSel=1;
             dataBSel=1;
             write_sel=2'b01;
-            imm_input=inst[31:20];
+            imm_input=$signed(inst[31:20]);
             ram_mode={inst[14:12],1'b0};
         end
         7'b0100011:begin                   //S型指令
             regsWriteEn=0;
             immSel=1;
             dataBSel=1;
-            imm_input={inst[31:25],inst[11:7]};
+            imm_input=$signed({inst[31:25],inst[11:7]});
             ram_mode={inst[14:12],1'b1};
         end
         7'b1100011:begin                   //SB型指令
             immSel=1;
             dataASel=1;
             dataBSel=1;
-            imm_input={inst[31],inst[7],inst[30:25],inst[11:8],1'b0};
+            imm_input=$signed({inst[31],inst[7],inst[30:25],inst[11:8],1'b0});
             case(inst[14:12])
                 3'b000:if(eq)pcSel=1;
                 3'b001:if((~lt))pcSel=1;
@@ -63,7 +63,7 @@ always @(inst) begin
             immSel=1;
             dataBSel=1;
             write_sel=2'b10;
-            imm_input=inst[31:20];
+            imm_input=$signed(inst[31:20]);
         end
         7'b1101111:begin                   //UJ型指令
             pcSel=1;
@@ -71,7 +71,20 @@ always @(inst) begin
             dataASel=1;
             dataBSel=1;
             write_sel=2'b10;
-            imm_input={inst[31],inst[19:12],inst[20],inst[30:21],1'b0};
+            imm_input=$signed({inst[31],inst[19:12],inst[20],inst[30:21],1'b0});
+        end
+        7'b0110111:begin                   //U型指令lui
+            immSel=1;
+            dataBSel=1;
+            write_sel=2'b01;
+            imm_input=$signed({inst[31:12],12'b0});
+        end
+        7'b0010111:begin                    //U型指令:auipc
+            immSel=1;
+            dataASel=1;
+            dataBSel=1;
+            write_sel=2'b01;
+            imm_input=$signed({inst[31:12],12'b0});
         end
         default:begin
 		
